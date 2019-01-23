@@ -1,7 +1,7 @@
 .custom-nav {
     width: 80%;
     padding-bottom: 0;
-    background-color #4f7b8a; 
+    background-color: #e8a668;
     
 }
 
@@ -16,21 +16,27 @@ body {
     height: .3em;
     width: 100vw;
     margin: 0;
-    background-color: #773f3f; /*Tiffany Blue */
+    background-color: #773f3f; 
     
 }
 
 .name-logo {
-    background-color: #773f3f; /*Tiffany Blue */
+    background-color: #773f3f; 
     padding: 1.2em;
     margin-bottom: 0;
-    color: blanchedalmond; /*Light Blue */
-    bottom: 0;
-   
-   
+    color: blanchedalmond; 
+    bottom: 0; 
     
 }
 
+
+.about-me {
+    width: 80%;
+    background-color: #e8a668;
+    height: 600px;
+    border-left: .8em solid #45a5aa;
+    border-right: .8em solid #45a5aa;
+}
 
 @media only screen and (max-width: 600px) {
     .custom-nav {
