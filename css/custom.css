@@ -2,6 +2,7 @@
     width: 80%;
     padding-bottom: 0;
     background-color: #e8a668;
+   
     
 }
 
@@ -10,6 +11,7 @@ body {
 }
 .navbar {
     background-color: #45a5aa;
+    
 }
 
 .teal-line {
@@ -17,12 +19,15 @@ body {
     width: 100vw;
     margin: 0;
     background-color: #773f3f; 
+   
     
 }
-
-.name-logo-faded {
-    opacity: 10%;
+.card-header, 
+.card-footer {
+    background-color: blanchedalmond;
 }
+
+
 
 .name-logo {
     background-color: #773f3f; 
@@ -32,8 +37,12 @@ body {
     bottom: 0;
     font-size: 1.2em;
     
+    
 }
-
+.about-me-img {
+    border: 1px solid #773f3f;
+    margin-right: 1.2em;
+}
 
 .about-me {
     width: 80%;
@@ -41,6 +50,15 @@ body {
     
     border-left: .8em solid #45a5aa;
     border-right: .8em solid #45a5aa;
+}
+
+.brown-font {
+    color: #773f3f;
+}
+
+.card-body {
+    background-color: #edf7f8;
+    
 }
 
 @media only screen and (max-width: 600px) {
