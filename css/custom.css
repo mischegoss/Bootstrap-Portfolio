@@ -6,9 +6,6 @@
     
 }
 
-body {
-    background-color: blanchedalmond;
-}
 .navbar {
     background-color: #45a5aa;
     
@@ -22,6 +19,7 @@ body {
    
     
 }
+body,
 .card-header, 
 .card-footer {
     background-color: blanchedalmond;
@@ -34,7 +32,9 @@ body {
      
 }
 
-
+.main-text-head {
+    font-size: 1.2em;
+}
 
 .name-logo {
     background-color: #773f3f; 
@@ -43,6 +43,7 @@ body {
     color: blanchedalmond; 
     bottom: 0;
     font-size: 1.2em;
+    
     
     
 }
@@ -68,6 +69,14 @@ body {
 .card-body {
     background-color: #edf7f8;
     
+}
+
+.embossed {
+    text-shadow: 0px 1px 1px #643535;
+    padding: .3em;
+    background-color:#864646;
+    box-shadow: .1em .1em .1em .1em #643535;
+    color: #432323;
 }
 
 @media only screen and (max-width: 600px) {
