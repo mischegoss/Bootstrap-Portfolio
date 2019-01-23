@@ -27,7 +27,16 @@ body {
     background-color: blanchedalmond;
 }
 
+.footer {
+    background-color: #773f3f; 
+    border-top: .3em solid  #45a5aa;
+    margin-bottom: 0;
+     
+}
 
+.hamburger {
+    z-index: 10;
+}
 
 .name-logo {
     background-color: #773f3f; 
@@ -50,6 +59,8 @@ body {
     
     border-left: .8em solid #45a5aa;
     border-right: .8em solid #45a5aa;
+    margin-bottom: 2.4em;
+    margin-top: 1.2em;
 }
 
 .brown-font {
