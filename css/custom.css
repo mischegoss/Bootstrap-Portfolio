@@ -83,12 +83,14 @@ body,
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
+.buffer {
+    height: 1.2em;
+}
 .portfolio-item {
     display: block;
     position: relative;
     overflow: hidden;
-    max-width: 450px;
+    max-width: 500px;
     margin: auto auto 1em;
   }
   
@@ -108,12 +110,9 @@ body,
     margin: auto 2em 2em;
   }
   
-  .portfolio-item .caption .caption-content h2 {
-    font-size: 0.8rem;
-    
-  }
   
   
+  */
 
 @media only screen and (max-width: 600px) {
     .custom-nav,
