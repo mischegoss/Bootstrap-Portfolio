@@ -45,7 +45,8 @@ body,
     font-size: 1.2em;
 }
 
-.name-logo {
+.name-logo
+ {
     background-color: #773f3f; 
     padding: 1.2em;
     margin-bottom: 0;
@@ -53,9 +54,15 @@ body,
     bottom: 0;
     font-size: 1.2em;
     box-shadow: .1em .1em .1em .1em #643535;
+    width: 30%;
+ } 
     
-    
-    
+   .contact-button {
+    background-color: #773f3f; 
+    box-shadow: .1em .1em .1em .1em #643535;
+    width: 30%;
+       
+   } 
     
 }
 .about-me-img {
@@ -116,12 +123,6 @@ body,
   }
   
   
-  .contact-button  {
-      width: 30%;
-  }
-  
-  
-  
 
 @media only screen and (max-width: 600px) {
     .custom-nav,
@@ -130,6 +131,10 @@ body,
     }
     .about-me-img {
         width: 100%;
+    }
+
+    .contact-button {
+        width: 50%;
     }
   } 
 
