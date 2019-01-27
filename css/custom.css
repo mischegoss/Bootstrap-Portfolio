@@ -38,6 +38,7 @@ body,
     background-color: #773f3f; 
     border-top: .3em solid  #45a5aa;
     margin-bottom: 0;
+    
      
 }
 
@@ -64,10 +65,11 @@ body,
        
    } 
     
-}
-.about-me-img {
-    border: 1px solid #773f3f;
+
+.about-image {
+    border: 2px solid #773f3f;
     margin-right: 1.2em;
+   
 }
 
 .about-me {
@@ -122,22 +124,39 @@ body,
    
   }
   
-  .comment {
-      min-height: 10em;
-  }
+  /*@media only screen and (max-width: 940px) {
+      .about-image,
+       {
+          width: 40%;
+      }
 
-@media only screen and (max-width: 600px) {
+      
+    }*/
+
+@media only screen and (max-width: 640px) {
     .custom-nav,
     #portfolio {
         width: 95vw;
     }
-    .about-me-img {
+    .about-image {
         width: 100%;
     }
-
+.name-logo {
+    width: 40%;
+}
     .contact-button {
         width: 50%;
     }
+
+
   } 
 
-  /*https://www.color-hex.com/color-palette/71613*/
+  @media only screen and (max-width: 480px) {
+    .about-image,
+     {
+        width: 60%;
+    }
+    .contact-button {
+        width: 90%;
+    }
+  }
