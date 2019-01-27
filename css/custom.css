@@ -123,6 +123,12 @@ body,
     position: absolute;
    
   }
+
+  @media only screen and (max-width: 1156px) {
+    .hide {
+        display: none;
+    } 
+  }
   
   @media only screen and (max-width: 940px) {
       .about-image,
@@ -130,6 +136,9 @@ body,
           width: 40%;
       }
 
+      .hidesm {
+          display:none;
+      }
       
     }
 
