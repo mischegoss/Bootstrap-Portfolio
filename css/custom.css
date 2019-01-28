@@ -1,75 +1,78 @@
+/* Palette Classes and Custom Colors */
 
-.caption-content h2{
+.almond-text {
     color:  blanchedalmond; 
-    background-color:  #773f3f;
-    padding: .6em;
-    
-   
 }
+
+.teal-background {
+    background-color: #45a5aa;    
+}
+
+.brown-background {
+    background-color: #773f3f; 
+}
+.brown-line {
+    height: .3em;
+    width: 100vw;
+    margin: 0;     
+}
+
+.brown-text {
+    color: #773f3f;
+}
+ 
+.almond-background {
+    background-color: blanchedalmond;
+} 
+
+.ltblue-background {
+    background-color: #edf7f8;
+}
+
+.orange-background {
+    background-color: #e8a668;
+}
+
+/* Styling and sizing for Header */
 
 .custom-nav {
     width: 80%;
-    padding-bottom: 0;
-    background-color: #e8a668;
-   
-    
-}
-
-.main {
-    min-height: calc(100vh - 9em)
-}
-.navbar {
-    background-color: #45a5aa;
-    
-}
-
-.teal-line {
-    height: .3em;
-    width: 100vw;
-    margin: 0;
-    background-color: #773f3f; 
-}
- 
-   
-
-body,
-.card-header, 
-.card-footer {
-    background-color: blanchedalmond;
-}
-
-.footer {
-    height: 40px;
-    background-color: #773f3f; 
-    border-top: .3em solid  #45a5aa;
-    min-height: 4.5em;
-    margin: 0;    
-}
-
-
-.main-text-head {
-    font-size: 1.2em;
+    padding-bottom: 0;   
 }
 
 .name-logo
  {
-    background-color: #773f3f; 
+ 
     padding: 1.2em;
     margin-bottom: 0;
-    color: blanchedalmond; 
+
     bottom: 0;
     font-size: 1.2em;
     box-shadow: .1em .1em .1em .1em #643535;
     width: 30%;
- } 
-    
-   .contact-button {
-    background-color: #773f3f; 
-    box-shadow: .1em .1em .1em .1em #643535;
-    width: 30%;
+ }
+
+/* Styling for main content area */
+
+.main {
+    min-height: calc(100vh - 10em);
+
+}
+
+.main-text-head {
+    font-size: 2em;
+}
+
+.content {
+    width: 80%;  
+    border-left: .8em solid #45a5aa;
+    border-right: .8em solid #45a5aa;
+    margin-bottom: 2.4em;
+    margin-top: 1.2em;
        
-   } 
-    
+}
+
+/* About Me Page Styling */
 
 .about-image {
     border: 2px solid #773f3f;
@@ -77,38 +80,24 @@ body,
    
 }
 
-.content {
-    width: 80%;
-    background-color: #e8a668;
+/* Contact Page Styling */
+
+.contact-button {
     
-    border-left: .8em solid #45a5aa;
-    border-right: .8em solid #45a5aa;
-    margin-bottom: 2.4em;
-    margin-top: 1.2em;
-}
-
-.brown-font {
-    color: #773f3f;
-}
-
-.card-body {
-    background-color: #edf7f8;
-    
-}
-
-
-.embossed {
-    text-shadow: 0px .3px .3px #643535;
-    padding: .3em;
-    background-color: #e8a668;
     box-shadow: .1em .1em .1em .1em #643535;
-    color: #432323;
-    font-size: .8em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    width: 30%;
+       
+   } 
+
+/* Portfolio Styling */
+
+.caption-size{
+    padding: .6em;   
 }
+
 .buffer {
     height: 1.2em;
+    
 }
 
 .portfolio-item {
@@ -119,7 +108,7 @@ body,
     margin: auto auto 1em;
   }
   
-  .portfolio-item .caption {
+ .caption {
     display: flex;
     height: 100%;
     width: 100%;
@@ -129,15 +118,32 @@ body,
    
   }
 
+/* Footer and Footer Tag Styling */
 
-  
+.footer {
+    height: 40px;  
+    border-top: .3em solid  #45a5aa;
+    min-height: 4.5em;
+    margin: 0;    
+}
+
+.footer-tag {
+    text-shadow: 0px .3px .3px #643535;
+    padding: .3em;
+    box-shadow: .1em .1em .1em .1em #643535;
+    color: #432323;
+    font-size: .8em;
+    margin-top: 1em
+    margin-bottom: 1em;
+}
+
+
+/*Media Queries to Adjust Size on Small Screens */
   @media only screen and (max-width: 940px) {
       .about-image,
        {
           width: 40%;
       }
-
-
       
     }
 
