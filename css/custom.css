@@ -1,108 +1,98 @@
 /* Palette Classes and Custom Colors */
 
 .almond-text {
-    color:  blanchedalmond; 
-}
-
-.teal-background {
-    background-color: #45a5aa;    
-}
-
-.brown-background {
-    background-color: #773f3f; 
-}
-.brown-line {
-    height: .3em;
+    color: blanchedalmond;
+  }
+  
+  .teal-background {
+    background-color: #45a5aa;
+  }
+  
+  .brown-background {
+    background-color: #773f3f;
+  }
+  .brown-line {
+    height: 0.3em;
     width: 100vw;
-    margin: 0;     
-}
-
-.brown-text {
+    margin: 0;
+  }
+  
+  .brown-text {
     color: #773f3f;
-}
- 
-.almond-background {
+  }
+  
+  .almond-background {
     background-color: blanchedalmond;
-} 
-
-.ltblue-background {
+  }
+  
+  .ltblue-background {
     background-color: #edf7f8;
-}
-
-.orange-background {
+  }
+  
+  .orange-background {
     background-color: #e8a668;
-}
-
-/* Styling and sizing for Header */
-
-.custom-nav {
+  }
+  
+  /* Styling and sizing for Header */
+  
+  .custom-nav {
     width: 80%;
-    padding-bottom: 0;   
-}
-
-.name-logo
- {
- 
+    padding-bottom: 0;
+  }
+  
+  .name-logo {
     padding: 1.2em;
     margin-bottom: 0;
-
+  
     bottom: 0;
     font-size: 1.2em;
-    box-shadow: .1em .1em .1em .1em #643535;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #643535;
     width: 30%;
- }
-
-/* Styling for main content area */
-
-.main {
+  }
+  
+  /* Styling for main content area */
+  
+  .main {
     min-height: calc(100vh - 10em);
-
-}
-
-.main-text-head {
+  }
+  
+  .main-text-head {
     font-size: 2em;
-}
-
-.content {
-    width: 80%;  
-    border-left: .8em solid #45a5aa;
-    border-right: .8em solid #45a5aa;
-    margin-bottom: 2.4em;
+  }
+  
+  .content {
+    width: 80%;
+    border-left: 0.8em solid #45a5aa;
+    border-right: 0.8em solid #45a5aa;
     margin-top: 1.2em;
-       
-}
-
-/* About Me Page Styling */
-
-.about-image {
+    margin-bottom: .6em;
+  }
+  
+  /* About Me Page Styling */
+  
+  .about-image {
     border: 2px solid #773f3f;
     margin-right: 1.2em;
-   
-}
-
-/* Contact Page Styling */
-
-.btn {
-    
-    box-shadow: .1em .1em .1em .1em #643535;
+  }
+  
+  /* Contact Page Styling */
+  
+  .btn {
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #643535;
     width: 30%;
-       
-   } 
-
-
-
-/* Portfolio Styling */
-
-.caption-size{
-    padding: .6em;   
-}
-
-.buffer {
+  }
+  
+  /* Portfolio Styling */
+  
+  .caption-size {
+    padding: 0.6em;
+  }
+  
+  .buffer {
     height: 1.2em;
-    
-}
-
-.portfolio-item {
+  }
+  
+  .portfolio-item {
     display: block;
     position: relative;
     overflow: hidden;
@@ -110,69 +100,63 @@
     margin: auto auto 1em;
   }
   
- .caption {
+  .caption {
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: flex-end;
     flex-direction: column;
     position: absolute;
-   
   }
-
-/* Footer and Footer Tag Styling */
-
-.footer {
-    height: 40px;  
-    border-top: .3em solid  #45a5aa;
+  
+  /* Footer and Footer Tag Styling */
+  
+  .footer {
+    height: 40px;
+    border-top: 0.3em solid #45a5aa;
     min-height: 4.5em;
-    margin: 0;    
-}
-
-.footer-tag {
-    text-shadow: 0px .3px .3px #643535;
-    padding: .3em;
-    box-shadow: .1em .1em .1em .1em #643535;
+    margin: 0;
+  }
+  
+  .footer-tag {
+    text-shadow: 0px 0.3px 0.3px #643535;
+    padding: 0.3em;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #643535;
     color: #432323;
-    font-size: .8em;
-    margin-top: 1em
+    font-size: 0.8em;
+    margin-top: 1em;
     margin-bottom: 1em;
-}
-
-
-/*Media Queries to Adjust Size on Small Screens */
+  }
+  
+  /*Media Queries to Adjust Size on Small Screens */
   @media only screen and (max-width: 940px) {
-      .about-image,
-       {
-          width: 40%;
-      }
-      
+    .about-image {
+      width: 40%;
     }
-
-@media only screen and (max-width: 640px) {
+  }
+  
+  @media only screen and (max-width: 640px) {
     .custom-nav,
-    .portfolio-main {
-        width: 95vw;
+    .portfolio-main,
+    .contact-main {
+      width: 95vw;
     }
     .about-image {
-        width: 100%;
+      width: 100%;
     }
-.name-logo {
-    width: 40%;
-}
-    .contact-button {
-        width: 50%;
+    .name-logo {
+      width: 40%;
     }
-
-
-  } 
-
+    .btn {
+      width: 50%;
+    }
+  }
+  
   @media only screen and (max-width: 480px) {
-    .about-image,
-     {
-        width: 60%;
+    .about-image {
+      width: 60%;
     }
-    .contact-button {
-        width: 90%;
+    .btn {
+      width: 90%;
     }
   }
